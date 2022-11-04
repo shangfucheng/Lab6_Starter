@@ -36,6 +36,7 @@ function getRecipesFromStorage() {
  */
 function addRecipesToDocument(recipes) {
   // A10. TODO - Get a reference to the <main> element
+  if (recipes == null) return;
   let mainRef = document.querySelector('main');
 
   // A11. TODO - Loop through each of the recipes in the passed in array,
